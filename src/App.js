@@ -72,16 +72,17 @@ Track how your links are performing across the web with our advanced statistics 
           </div>
        
       </selection>
+
       <div className='container' style={{ "position": "absolute", "top": "590px", }}>
         <div class='lol' style={{"background-size": "100% 100%", backgroundColor: "rgb(63, 46, 85)",  "border-radius": "5px" }} > <br></br>
           <Container>
             <Card.Body style={{ "width": "90%" }}>
             <div className='row align-items-center'>
-            <div class='col-xs-12  col-md-6 ' style={{}}>
+            <div class='col-xs-12  col-md-8 ' style={{}}>
             <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
             </div><br/>
-            <div class='col-xs-12  col-md-6 ' style={{}}>
-<button variant="primary" className='button-n'>Shorten it!</button>
+            <div class='col-xs-12  col-md-2 ' style={{}}>
+                <button variant="primary" className='button-n'>Shorten it!</button>
             </div>
               
               
