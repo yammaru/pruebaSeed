@@ -35,54 +35,65 @@ function App() {
 
       </nav>
 
-<div className='container'>
+      <div className='container'>
 
-  <div className='row align-items-center' style={{"height":"600px"}}>
-     <div class='col-xs-12  col-md-6 md:top-50  ' style={{}}>
-                    <h1>
-                      More that just<br />
-                      shorter links
-                    </h1>
-                    <p>
-                      Build your brand´s recongnition and get detailed<br />
-                      insights on how your links are performing.<br /><br />
-                      <button className='button-g'>  Get Started  </button>
-                    </p>
-      </div>  
-      <div class='col-xs-12 col-md-6' style={{}}>
-        <img class="responsive" src={illustration_working} style={{display:"flex",height:"auto"}}  alt="logo" />
-      </div>  
-</div>
-</div>
+        <div className='row align-items-center' style={{ "height": "600px" }}>
+          <div class='col-xs-12  col-md-6 md:top-50  ' style={{}}>
+            <h1>
+              More that just<br />
+              shorter links
+            </h1>
+            <p>
+              Build your brand´s recongnition and get detailed<br />
+              insights on how your links are performing.<br /><br />
+              <button className='button-g'>  Get Started  </button>
+            </p>
+          </div>
+          <div class='col-xs-12 col-md-6' style={{}}>
+            <img class="responsive" src={illustration_working} style={{ display: "flex", height: "auto" }} alt="logo" />
+          </div>
+        </div>
+      </div>
 
 
- 
-    
-      <selection style={{"height":"350px" }}>
-      <p style={{ "background-color": "#ddd","height":"350px" }}></p>
+
+
+      <selection style={{ "height": "350px" }}>
+        <p style={{ "background-color": "#ddd", "height": "350px" }}>
+          
+          </p> 
+          <div style={{ "background-color": "#ddd"} }>
+             <div class='container' style={{backgroundColor:"transparent",textAlign:"center",justifyContent:"center",width:"33%"}}>
+        <h1>Advanced Statistics</h1>
+        <p> 
+
+Track how your links are performing across the web with our advanced statistics dashboard.</p>
+      </div>
+          </div>
+       
       </selection>
-      <div className='container' style={{"position":"absolute" ,"top":"590px", left:"10%"}}>
-        <Card class='hhhh' style={{backgroundColor:"violet"}} > <br></br>
+      <div className='container' style={{ "position": "absolute", "top": "590px", left: "10%" }}>
+        <div class='lol' style={{ backgroundColor: "rgb(63, 46, 85)",width:"1110px",  "border-radius": "5px" }} > <br></br>
           <Container>
             <Card.Body style={{ "width": "90%" }}>
+              <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
+              <button variant="primary" className='button-n'>Shorten it!</button>
               <InputGroup>
                 <FormControl
                   type="text"
                   placeholder="Shorten a link here..."
-                  aria-label="Input group example"  
+                  aria-label="Input group example"
                   aria-describedby="btnGroupAddon2"
                 />
                 <button variant="primary" className='button-n'>Shorten it!</button>
               </InputGroup>
             </Card.Body>
           </Container> <br></br>
-        </Card>
+        </div>
       </div>
 
-<dic class='hhh'>
+     
 
-</dic>
-      
 
     </div>
   );

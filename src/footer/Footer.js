@@ -10,20 +10,20 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 function Footer() {
   return (
     <footer style={{ color: 'white', "background-color": "#282c34", "height": "100%" }}>
-      <div >
+      <div>
 
-        <Card style={{ "backgroundColor": "purple", "text-align": "center", "justify-content": "center" }}> <br></br>
+        <div className="hhh" style={{width:"1349px",height:"auto", "backgroundColor": "rgb(63, 46, 85)", "text-align": "center", "justify-content": "center" }}> <br></br>
           <Container style={{ "align-items": "center", "justify-content": "center" }}>
             <Card.Body> <p style={{ "align-items": "center", "justify-content": "center", "text-align": "center", }}>
               <h2>
                 Boost your link today
-              </h2>  <button class='button-g'style={{"width":"auto",height:"40px"}}>  Get Started  </button></p>
+              </h2>  <button class='button-g' style={{ "width": "auto", height: "40px" }}>  Get Started  </button></p>
 
 
             </Card.Body>
           </Container>
-        </Card>
-<br/>
+        </div>
+        <br />
         <div className='container'>
           <div className='row'>
             <div className='col-xs-12  col-md-3 ' style={{}}>
@@ -82,7 +82,7 @@ function Footer() {
         </div>
 
       </div>
-      <br/>
+      <br />
     </footer>
 
 
