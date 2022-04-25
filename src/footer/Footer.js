@@ -12,7 +12,7 @@ function Footer() {
     <footer style={{ color: 'white', "background-color": "#282c34", "height": "100%" }}>
       <div>
 
-        <div className="hhh" style={{width:"1349px",height:"auto", "backgroundColor": "rgb(63, 46, 85)", "text-align": "center", "justify-content": "center" }}> <br></br>
+        <div className="hhh" style={{ "backgroundColor": "rgb(63, 46, 85)", "text-align": "center", "justify-content": "center" }}> <br></br>
           <Container style={{ "align-items": "center", "justify-content": "center" }}>
             <Card.Body> <p style={{ "align-items": "center", "justify-content": "center", "text-align": "center", }}>
               <h2>
