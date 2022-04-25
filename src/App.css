@@ -1,14 +1,19 @@
 .button-g{
-  border-radius: 18px;
   background-color: hsl(180, 66%, 49%);
   border-color: transparent;
+  border-radius: 18px;
   color: white;
   
 }
-.button-n{
 
+.hhh{
+  background-image: url("/src/images/bg-boost-desktop.svg");
+}
+.button-n{
   background-color: hsl(180, 66%, 49%);
   border-color: transparent;
+  border-radius: 5px;
+  color: white;
 }
 .button-g:hover{
   background-color: #83DBE6; 
@@ -17,4 +22,8 @@
 .button-n:hover{
   background-color: #83DBE6; 
   border-color: transparent;
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }

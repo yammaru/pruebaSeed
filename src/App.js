@@ -3,16 +3,13 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Button, Card, Col, Container, FormControl, InputGroup, Nav, NavDropdown, Row } from 'react-bootstrap';
 import images2 from './images/logo.svg';
 import illustration_working from './images/illustration-working.svg';
-import icon_twitter from './images/icon-twitter.svg';
-import icon_instagram from './images/icon-instagram.svg';
-import icon_pinterest from './images/icon-pinterest.svg';
-import icon_facebook from './images/icon-facebook.svg';
+
 function App() {
   return (
     <div>
 
       <nav >
-        <Navbar style={{ "backgroundColor": "#f9f9f9" }} collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect expand="lg">
           <Container>
             <Navbar.Brand href="#home"> <img src={images2} alt="lossgo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -30,17 +27,18 @@ function App() {
               </Nav>
               <Nav>
                 <Nav.Link href="#deets">Login</Nav.Link>
-                <Button className='button-g'>Sign Up</Button>
+                <button className='button-g'>Sign Up</button>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
 
       </nav>
+
 <div className='container'>
 
-  <div className='row'>
-     <div className='col-xs-12  col-md-6 md:top-50  ' style={{"backgroundColor":"green"}}>
+  <div className='row align-items-center' style={{"height":"600px"}}>
+     <div class='col-xs-12  col-md-6 md:top-50  ' style={{}}>
                     <h1>
                       More that just<br />
                       shorter links
@@ -51,40 +49,20 @@ function App() {
                       <button className='button-g'>  Get Started  </button>
                     </p>
       </div>  
-      <div className='col-xs-12 col-md-6' style={{"backgroundColor":"indigo"}}>
-        <img src={illustration_working} style={{display:"flex",height:"auto"}}  alt="logo" />
+      <div class='col-xs-12 col-md-6' style={{}}>
+        <img class="responsive" src={illustration_working} style={{display:"flex",height:"auto"}}  alt="logo" />
       </div>  
 </div>
 </div>
 
 
  
-      <header style={{"height":"600px"}}>
-        <Container>
-          <Row style={{ "align-items": "center", "justify-content": "center" }} >
-            <Col xs={0  } sm={0} md={0} lg={0} xl={0} style={{ "text-align": "left" }}>
-              <h1>
-                More that just<br />
-                shorter links
-              </h1>
-              <p>
-                Build your brand´s recongnition and get detailed<br />
-                insights on how your links are performing.<br /><br />
-                <button className='button-g'>  Get Started  </button>
-              </p>
-            </Col>
-            <Col xs={6} sm={24} md={24} lg={24} xl={2} >
-              <img src={illustration_working}   alt="logo" />
-            </Col>
-          </Row>
-        </Container>
-
-      </header>
-      <selection style={{ "background-color": "blue","height":"350px" }}>
-      <p style={{ "background-color": "blue","height":"350px" }}>okos</p>
+    
+      <selection style={{"height":"350px" }}>
+      <p style={{ "background-color": "#ddd","height":"350px" }}></p>
       </selection>
-      <div className='container' style={{"position":"absolute" ,"top":"590px", "text-align": "center", "justify-content": "center"}}>
-        <Card style={{ "backgroundColor": "indigo" }}> <br></br>
+      <div className='container' style={{"position":"absolute" ,"top":"590px", left:"10%"}}>
+        <Card class='hhhh' style={{backgroundColor:"violet"}} > <br></br>
           <Container>
             <Card.Body style={{ "width": "90%" }}>
               <InputGroup>
@@ -94,14 +72,16 @@ function App() {
                   aria-label="Input group example"  
                   aria-describedby="btnGroupAddon2"
                 />
-                <Button variant="primary" className='button-n'>Shorten it!</Button>
+                <button variant="primary" className='button-n'>Shorten it!</button>
               </InputGroup>
             </Card.Body>
           </Container> <br></br>
         </Card>
       </div>
 
+<dic class='hhh'>
 
+</dic>
       
 
     </div>
