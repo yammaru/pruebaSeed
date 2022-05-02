@@ -6,9 +6,9 @@ import illustration_working from './images/illustration-working.svg';
 
 function App() {
   return (
-    <div>
+    <div className='constainer'>
 
-      <nav >
+      <nav style={{ backgroundColor: "white", justifyItems: "center" }} >
         <Navbar collapseOnSelect expand="lg">
           <Container>
             <Navbar.Brand href="#home"> <img src={images2} alt="lossgo" /></Navbar.Brand>
@@ -35,7 +35,7 @@ function App() {
 
       </nav>
 
-      <div className='container'>
+      <div className='container' style={{ backgroundColor: "white" }}>
 
         <div className='row align-items-center' style={{ "height": "600px" }}>
           <div class='col-xs-12  col-md-6 md:top-50  ' style={{}}>
@@ -55,54 +55,67 @@ function App() {
         </div>
       </div>
 
+      <selection >
 
+        <p style={{ "background-color": "transparent", "height": "350px" }} />
 
+        <div style={{ "font-size": " 1vw",display:'flex', backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
+          <h1 style={{ "font-size": " 3vw" }}>
+            Advanced Statistics
+          </h1>
+          <p>
+            Track how your links are performing across the web with our advanced statistics dashboard.
+          </p>
+        </div>
 
-      <selection style={{ "height": "350px" }}>
-        <p style={{ "background-color": "#ddd", "height": "350px" }}>
-          
-          </p> 
-          <div style={{ "background-color": "#ddd"} }>
-             <div class='container' style={{backgroundColor:"transparent",textAlign:"center",justifyContent:"center",width:"33%"}}>
-        <h1>Advanced Statistics</h1>
-        <p> 
-
-Track how your links are performing across the web with our advanced statistics dashboard.</p>
-      </div>
-          </div>
-       
       </selection>
 
-      <div className='container' style={{ "position": "absolute", "top": "590px", }}>
-        <div class='lol' style={{"background-size": "100% 100%", backgroundColor: "rgb(63, 46, 85)",  "border-radius": "5px" }} > <br></br>
-          <Container>
-            <Card.Body style={{ "width": "90%" }}>
-            <div className='row align-items-center'>
-            <div class='col-xs-12  col-md-8 ' style={{}}>
-            <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
-            </div><br/>
-            <div class='col-xs-12  col-md-2 ' style={{}}>
-                <button variant="primary" className='button-n'>Shorten it!</button>
+      <section style={{  }}>
+        <div className="container">
+          <div className="row">
+            <div class='col-xs-1   col-md-3 ' style={{"background-color": "blue", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              <img src={images2} alt="" />
             </div>
-              
-              
+            <div class='col-xs-1   col-md-1 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              -
             </div>
-            
-              {/*/<InputGroup>
-                <FormControl
-                  type="text"
-                  placeholder="Shorten a link here..."
-                  aria-label="Input group example"
-                  aria-describedby="btnGroupAddon2"
-                />
-                <button variant="primary" className='button-n'>Shorten it!</button>
-              </InputGroup>*/}
-            </Card.Body>
-          </Container> <br></br>
+            <div class='col-xs-1  col-md-3' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              <img src={images2} alt="" />
+            </div>
+            <div class='col-xs-1   col-md-1 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              -
+            </div>
+            <div class='col-xs-1   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              <img src={images2} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className='container'>
+        <div className='container' style={{ "position": "absolute", "top": "590px", }}>
+          <div class='lol' style={{ "background-size": "100% 100%", backgroundColor: "rgb(63, 46, 85)", "border-radius": "5px" }} > <br></br>
+            <Container>
+              <Card.Body style={{ "width": "90%" }}>
+                <div className='row align-items-center'>
+                  <div class='col-xs-12  col-md-8 ' style={{}}>
+                    <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
+                  </div><br />
+                  <div class='col-xs-12  col-md-2  ' style={{}}>
+                    <button variant="primary" className='button-n'>Shorten it!</button>
+                  </div>
+
+
+                </div>
+
+              </Card.Body>
+            </Container> <br></br>
+          </div>
         </div>
       </div>
 
-     
+
+
 
 
     </div>

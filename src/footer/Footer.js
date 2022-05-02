@@ -25,12 +25,12 @@ function Footer() {
         </div>
         <br />
         <div className='container'>
-          <div className='row'>
+          <div className=' row'>
             <div className='col-xs-12  col-md-3 ' style={{}}>
-              <img
+              <img 
                 alt=""
                 src={images2}
-                style={{ "filter": "invert(100%) sepia(0%) saturate(0%) hue-rotate(156deg) brightness(102%) contrast(101%)", "align-items": "center", "justify-content": "center", "text-align": "center", }}
+                style={{  "align-items": "center", "justify-content": "center", "text-align": "center", }}
               />
             </div>
             <div className='col-xs-12  col-md-2 ' style={{}}>
@@ -51,7 +51,7 @@ function Footer() {
                 <li>Support</li>
               </ul>
             </div>
-            <div className='col-xs-12  col-md-2' style={{ "align-items": "center", "justify-content": "center", "text-align": "left" }}>
+            <div className='col-xs-12  col-md-2' style={{  "align-items": "center", "justify-content": "center", "text-align": "left" }}>
               <ul style={{ "list-style-type": "none", "list-style-position": "outside" }} >
                 <li><strong>Company</strong></li>
                 <br />
@@ -77,9 +77,28 @@ function Footer() {
                 </Col>
               </Row>
             </div>
+
           </div>
 
+            {/*       <div className="container">
+                    <div className="row">
+                      <div class='col-xs-1   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+                        <img src={icon_facebook} alt="" />
+                      </div>
+                      <div class='col-xs-1  col-md-3 ' style={{ backgroundColor:"red","align-items": "center", "justify-content": "center", "text-align": "center" }}>
+                        <img src={icon_twitter} alt="" />
+                      </div>
+                      <div class='col-xs-1   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+                        <img src={icon_pinterest} alt="" />
+                      </div>
+                      <div class='col-xs-1   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+                        <img src={icon_instagram} alt="" />
+                      </div>
+                    </div>
+                </div>       
+                */}
         </div>
+
 
       </div>
       <br />
