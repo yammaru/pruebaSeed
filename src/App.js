@@ -3,6 +3,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Button, Card, Col, Container, FormControl, InputGroup, Nav, NavDropdown, Row } from 'react-bootstrap';
 import images2 from './images/logo.svg';
 import illustration_working from './images/illustration-working.svg';
+import grafica from './images/icon-brand-recognition.svg';
+import pinceles from './images/icon-fully-customizable.svg';
+import cromenetro from './images/icon-detailed-records.svg';
 
 function App() {
   return (
@@ -57,7 +60,7 @@ function App() {
 
       <selection >
 
-        <p style={{ "background-color": "transparent", "height": "350px" }} />
+        <p style={{ "background-color": "transparent", "height": "100px" }} />
 
         <div style={{ "font-size": " 1vw",display:'flex', backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
           <h1 style={{ "font-size": " 3vw" }}>
@@ -73,20 +76,32 @@ function App() {
       <section style={{  }}>
         <div className="container">
           <div className="row">
-            <div class='col-xs-1   col-md-3 ' style={{"background-color": "blue", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              <img src={images2} alt="" />
+            <div class='col-xs-1   col-md-3 ' style={{"background-color": "grey", "align-items": "left", "justify-content": "left", "text-align": "left" }}>
+             <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
+               <img src={grafica} style={{ width:"60%"}} alt="" />
+             </div> 
+             <h3>  <strong>Brand Recognition</strong></h3>
+              <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.  </p>
             </div>
-            <div class='col-xs-1   col-md-1 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              -
+            <div class='col-xs-1   col-md-1 ' style={{ "background-color": "cyan",height:"10px","align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              
             </div>
-            <div class='col-xs-1  col-md-3' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              <img src={images2} alt="" />
+            <div class='col-xs-1  col-md-3' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              <img src={cromenetro} alt="" />
+             <h3><strong>Detailed Records</strong></h3> 
+              <p>
+               Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+              </p>
             </div>
-            <div class='col-xs-1   col-md-1 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              -
+            <div class='col-xs-1   col-md-1 ' style={{"background-color": "cyan",height:"10px", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              
             </div>
-            <div class='col-xs-1   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              <img src={images2} alt="" />
+            <div class='col-xs-1   col-md-3 ' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
+              <img src={pinceles} alt="" />
+              <h3><strong>Fully Customizable</strong></h3>
+              <p>
+              Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+              </p>
             </div>
           </div>
         </div>

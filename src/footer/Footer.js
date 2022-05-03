@@ -27,7 +27,7 @@ function Footer() {
         <div className='container'>
           <div className=' row'>
             <div className='col-xs-12  col-md-3 ' style={{}}>
-              <img 
+              <img class="imgfooter"
                 alt=""
                 src={images2}
                 style={{  "align-items": "center", "justify-content": "center", "text-align": "center", }}
@@ -64,16 +64,16 @@ function Footer() {
             <div class='col-xs-12   col-md-3 ' style={{ "align-items": "center", "justify-content": "center", "text-align": "center" }}>
               <Row>
                 <Col>
-                  <img src={icon_facebook} alt="" />
+                  <img class="img" src={icon_facebook} alt="" />
                 </Col>
                 <Col>
-                  <img src={icon_twitter} alt="" />
+                  <img class="img" src={icon_twitter} alt="" />
                 </Col>
                 <Col>
-                  <img src={icon_pinterest} alt="" />
+                  <img class="img" src={icon_pinterest} alt="" />
                 </Col>
                 <Col>
-                  <img src={icon_instagram} alt="" />
+                  <img class="img" src={icon_instagram} alt="" />
                 </Col>
               </Row>
             </div>
