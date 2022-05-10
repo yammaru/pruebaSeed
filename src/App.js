@@ -62,8 +62,8 @@ function App() {
 
         <p style={{ "background-color": "transparent", "height": "100px" }} />
 
-        <div style={{ "font-size": " 1vw",display:'flex', backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
-          <h1 style={{ "font-size": " 3vw" }}>
+        <div style={{  backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
+          <h1 >
             Advanced Statistics
           </h1>
           <p>
@@ -72,7 +72,14 @@ function App() {
         </div>
 
       </selection>
-
+{/*  <div style={{ "font-size": " 1vw",display:'flex', backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
+          <h1 style={{ "font-size": " 3vw" }}>
+            Advanced Statistics
+          </h1>
+          <p>
+            Track how your links are performing across the web with our advanced statistics dashboard.
+          </p>
+        </div>*/}
       <section style={{  }}>
         <div className="container">
           <div className="row">
@@ -87,7 +94,10 @@ function App() {
               
             </div>
             <div class='col-xs-1  col-md-3' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              <img src={cromenetro} alt="" />
+            <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
+              <img src={cromenetro} style={{ width:"60%"}}  alt="" />
+            </div>
+              
              <h3><strong>Detailed Records</strong></h3> 
               <p>
                Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
@@ -97,7 +107,10 @@ function App() {
               
             </div>
             <div class='col-xs-1   col-md-3 ' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              <img src={pinceles} alt="" />
+            <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
+              <img src={pinceles}style={{ width:"70%"}}  alt="" />
+            </div>
+              
               <h3><strong>Fully Customizable</strong></h3>
               <p>
               Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
