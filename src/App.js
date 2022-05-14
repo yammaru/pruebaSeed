@@ -83,19 +83,19 @@ function App() {
       <section style={{  }}>
         <div className="container">
           <div className="row">
-            <div class='col-xs-1   col-md-3 ' style={{"background-color": "grey", "align-items": "left", "justify-content": "left", "text-align": "left" }}>
-             <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
-               <img src={grafica} style={{ width:"60%"}} alt="" />
+            <div class='col-xs-1   col-md-3 ' style={{"background-color": "white", "align-items": "left", "justify-content": "left", "text-align": "left" }}>
+             <div  style={{ display: "flex", "justify-content": "center",     "align-items": "center", "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"80px",height:"80px"}}>
+               <img src={grafica} style={{width:"auto%" , height: "50%"}} alt="" />
              </div> 
              <h3>  <strong>Brand Recognition</strong></h3>
               <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.  </p>
             </div>
-            <div class='col-xs-1   col-md-1 ' style={{ "background-color": "cyan",height:"10px","align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              
-            </div>
-            <div class='col-xs-1  col-md-3' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-            <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
-              <img src={cromenetro} style={{ width:"60%"}}  alt="" />
+            {/*linea*/}
+            <div class='col-xs-1   col-md-1 ' style={{ "background-color": "cyan",height:"10px","align-items": "center", "justify-content": "center", "text-align": "center" }}/>
+            {/*linea*/}
+            <div class='col-xs-1  col-md-3' style={{"background-color": "white", "align-items": "left", "justify-content": "left", "text-align": "left" }}>
+            <div style={{ display: "flex", "justify-content": "center",     "align-items": "center",  "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"80px",height:"80px"}}>
+              <img src={cromenetro} style={{ width:"auto%" , height: "50%"}}  alt="" />
             </div>
               
              <h3><strong>Detailed Records</strong></h3> 
@@ -103,12 +103,13 @@ function App() {
                Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
               </p>
             </div>
-            <div class='col-xs-1   col-md-1 ' style={{"background-color": "cyan",height:"10px", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-              
-            </div>
-            <div class='col-xs-1   col-md-3 ' style={{"background-color": "grey", "align-items": "center", "justify-content": "center", "text-align": "center" }}>
-            <div style={{   "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"50px",height:"50px"}}>
-              <img src={pinceles}style={{ width:"70%"}}  alt="" />
+            {/*linea*/}
+            <div class='col-xs-1   col-md-1 ' style={{"background-color": "cyan",height:"10px", "align-items": "center", "justify-content": "center", "text-align": "center" }}/>
+            {/*linea*/}
+            
+            <div class='col-xs-1   col-md-3 ' style={{"background-color": "white", "align-items": "center", "justify-content": "center", "text-align": "left" }}>
+            <div style={{ display: "flex", "justify-content": "center",     "align-items": "center",  "background-position": "50% 50%","backgroundColor": "rgb(63, 46, 85)","border-radius": "50%", width:"80px",height:"80px"}}>
+              <img src={pinceles}style={{ width:"auto%" , height: "60%"}}  alt="" />
             </div>
               
               <h3><strong>Fully Customizable</strong></h3>
@@ -122,22 +123,20 @@ function App() {
 
       <div className='container'>
         <div className='container' style={{ "position": "absolute", "top": "590px", }}>
-          <div class='lol' style={{ "background-size": "100% 100%", backgroundColor: "rgb(63, 46, 85)", "border-radius": "5px" }} > <br></br>
-            <Container>
-              <Card.Body style={{ "width": "90%" }}>
-                <div className='row align-items-center'>
-                  <div class='col-xs-12  col-md-8 ' style={{}}>
+          <div class='lol' style={{ height:"150px","background-size": "100% 100%", backgroundColor: "rgb(63, 46, 85)", "border-radius": "5px" }} > <br></br>
+          <br></br>
+                <div className='row' style={{display: "flex", "align-items": "center", "justify-content": "center"}}>
+                  <div class='col-xs-12  col-md-8 ' style={{width:"70%"}}>
                     <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
                   </div><br />
-                  <div class='col-xs-12  col-md-2  ' style={{}}>
+                  <div class='col-xs-12  col-md-2  ' style={{width:"15%"}}>
                     <button variant="primary" className='button-n'>Shorten it!</button>
                   </div>
-
-
                 </div>
+          
+                
 
-              </Card.Body>
-            </Container> <br></br>
+              <br></br>
           </div>
         </div>
       </div>

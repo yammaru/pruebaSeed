@@ -25,7 +25,7 @@ function Footer() {
         </div>
         <br />
         <div className='container'>
-          <div className=' row'>
+          <div className='row'>
             <div className='col-xs-12  col-md-3 ' style={{}}>
               <img class="imgfooter"
                 alt=""
@@ -34,7 +34,7 @@ function Footer() {
               />
             </div>
             <div className='col-xs-12  col-md-2 ' style={{}}>
-              <ul style={{ "list-style-type": "none", "list-style-position": "outside", "align-items": "left", "justify-content": "left" }} >
+              <ul style={{ "list-style-type": "none", "list-style-position": "outside", "align-items": "center", "justify-content": "center" }} >
                 <li><strong>Features</strong></li>
                 <br />
                 <li>Link Shortening</li>
