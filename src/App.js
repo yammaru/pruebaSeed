@@ -6,8 +6,31 @@ import illustration_working from './images/illustration-working.svg';
 import grafica from './images/icon-brand-recognition.svg';
 import pinceles from './images/icon-fully-customizable.svg';
 import cromenetro from './images/icon-detailed-records.svg';
+import { useState } from 'react';
 
 function App() {
+ const [consulting,setConsulting]=useState(false);
+ const [copyButtonMessage,setCopyButtonMessage]=useState("Copy");
+ const [copyButtonColor,setCopyButtonColor]=useState("hsl(180, 66%, 49%)");
+  const verConsulta=()=>{
+    setCopyButtonMessage("Copy");
+
+    if(consulting==true){
+      setConsulting(false);
+    }else{
+      setConsulting(true);
+    }
+  }
+  const copyToClipBoard=()=> {
+
+    var content = document.getElementById('textArea');
+    
+    content.select();
+    document.execCommand('copy');
+
+    setCopyButtonMessage("Copied!");
+}
+ console.log(consulting);
   return (
     <div className='constainer'>
 
@@ -61,13 +84,28 @@ function App() {
       <selection >
 
         <p style={{ "background-color": "transparent", "height": "100px" }} />
+        {
+          consulting? 
+          <>
+          <div class="container">
+          <div  style={{display:"flex",backgroundColor:"indigo", " border-radius":"15px"}}>
+             <p >We are learning to copy text to clipboard in JavaScript.</p>
+             <p id="textArea" style={{color:"hsl(180, 66%, 49%)"}}>We are learning to copy text to clipboard in JavaScript.</p>
+             <button className='button-n' onClick={copyToClipBoard}>{copyButtonMessage}</button>
+          </div>
+            
+          </div>
+            
+          </>
+         :<></>
+        }
 
         <div style={{  backgroundColor: "transparent", "align-items": "center", "text-align": "center", justifyContent: "center", width: "100%" }}>
           <h1 >
             Advanced Statistics
           </h1>
           <p>
-            Track how your links are performing across the web with our advanced statistics dashboard.
+            Track how your links are performing across the web with<br></br> our advanced statistics dashboard.
           </p>
         </div>
 
@@ -130,7 +168,7 @@ function App() {
                     <input className='kkkk' placeholder='horten a link here...' style={{}} required={{}}></input>
                   </div><br />
                   <div class='col-xs-12  col-md-2  ' style={{width:"15%"}}>
-                    <button variant="primary" className='button-n'>Shorten it!</button>
+                    <button variant="primary" onClick={verConsulta} className='button-n'>Shorten it!</button>
                   </div>
                 </div>
           
@@ -141,7 +179,7 @@ function App() {
         </div>
       </div>
 
-
+      
 
 
 
