@@ -11,7 +11,7 @@ root.render(
   
   <React.StrictMode>
     <Apps/>
-<Footer/>
+    <Footer/>
   </React.StrictMode>
 );
 
